@@ -1,0 +1,90 @@
+body {
+  background-image:url(../img/coast.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.logo {
+  color:white;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  font-family:Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+.user {
+  text-transform: uppercase;
+}
+
+.sign-in {
+  border:white solid 2px;
+  padding:8px 3px 8px 3px;
+  border-radius:5px;
+  margin-right:10px;
+}
+
+.sign-in:hover {
+  background-color:white;
+}
+
+.sign-in a:hover {
+  color:black;
+}
+
+.sign-up {
+  padding:8px 3px 8px 3px;
+  border:#FFCC00 solid 2px;
+  border-radius:5px;
+  background-color:#FFCC00;
+}
+
+.sign-up:hover {
+  background-color:#FF9900
+}
+
+.sign-up a {
+  color:black;
+}
+
+.wrap{
+  margin-top:100px;
+}
+
+.landing-logo {
+  width:50%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.landing-logo img {
+  display:block;
+  margin:auto;
+}
+
+.title {
+  text-align:center;
+  color:white;
+  font-family:Helvetica, sans-serif;
+  text-transform:uppercase;
+  font-size:80px;
+}
+
+.pitch {
+  
+}
