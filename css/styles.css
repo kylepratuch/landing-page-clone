@@ -3,6 +3,7 @@ body {
   background-position:center;
   background-size:cover;
   background-repeat:no-repeat;
+  font-family:Helvetica, sans-serif;
 }
 
 .logo {
@@ -21,7 +22,6 @@ li {
 }
 
 li a {
-  font-family:Helvetica, sans-serif;
   color: white;
   text-align: center;
   padding: 10px 10px;
@@ -80,11 +80,36 @@ li a {
 .title {
   text-align:center;
   color:white;
-  font-family:Helvetica, sans-serif;
+  /*font-family:Helvetica, sans-serif;*/
   text-transform:uppercase;
   font-size:80px;
 }
 
 .pitch {
-  
+  font-family:Times, serif;
+  text-align:center;
+  color:white;
+  font-style:italic;
+  font-size:30px;
+}
+
+.buttons {
+  margin-top:50px;
+}
+
+.top-stories {
+  display:block;
+  width:50%;
+  float:left;
+  text-align:right;
+}
+
+.top-stories a{
+  font-size:20px;
+  color:white;
+  text-transform:uppercase;
+  text-decoration:none;
+  border:2px solid white;
+  border-radius:4px;
+  padding:14px;
 }
