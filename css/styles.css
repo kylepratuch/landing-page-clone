@@ -107,7 +107,7 @@ li a {
   text-align:right;
 }
 
-.top-stories a{
+.top-stories a {
   font-size:20px;
   color:white;
   text-transform:uppercase;
@@ -115,8 +115,12 @@ li a {
   border:2px solid white;
   border-radius:4px;
   padding:14px;
-  background-color:rgba(255, 255, 255, 0.35);
+  background-color:rgba(255, 255, 255, 0.25);
   margin-right:10px;s
+}
+
+.top-stories a:hover {
+  background-color:rgba(255, 255, 255, 0.35);
 }
 
 .facebook {
@@ -136,4 +140,10 @@ li a {
   padding:14px;
   background-color:rgb(59,89,152);
   margin-left:10px;
+}
+
+.links {
+  text-align:center;
+  padding-top:250px;
+
 }
