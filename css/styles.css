@@ -135,11 +135,15 @@ li a {
   color:white;
   text-transform:uppercase;
   text-decoration:none;
-  border:2px solid rgb(59,89,152);
+  border:2px solid #3B5998;
   border-radius:4px;
   padding:14px;
-  background-color:rgb(59,89,152);
+  background-color:#3B5998;
   margin-left:10px;
+}
+
+.facebook a:hover {
+  background-color: #4E69A2;
 }
 
 .links {
